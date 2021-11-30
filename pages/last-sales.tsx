@@ -43,7 +43,6 @@ const LastSalesPage: React.FC<LastSalesPageProps> = (props) => {
         });
       }
       setSales(transformedSales);
-      console.log('tt')
     }
   }, [data])
 
